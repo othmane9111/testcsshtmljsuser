@@ -1,0 +1,278 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 1px solid lightgray;
+}
+
+td,
+th {
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+    padding: 8px;
+}
+
+td{
+    border: 1px solid orange;
+}
+
+.trash{
+    text-align: center;
+    cursor: pointer;
+}
+
+.button_container{
+    border: 1px solid lightgray;
+    width: 90%;
+    margin: 2rem auto;
+    text-align: end;
+    padding: .7rem .75rem;
+    box-shadow: 0 0 .2rem lightgrey;
+}
+
+button{
+    padding: .2rem .75rem;
+    background-color: #FFAA0A;
+    color: #97793F;
+    outline: none;
+    border: transparent;
+    border-radius: .2rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.setOfInputs{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 1rem 0;
+}
+
+.form_container{
+    width: 90%;
+    box-shadow: 0 0 .2rem lightgrey;
+    border: 1px solid lightgray;    padding: .75rem;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    z-index: 9999;
+    scale: 0;
+    display: none;
+    transition: scale 250ms ease-in-out;
+}
+
+.popUp{
+    scale: 1;
+    display: block;
+}
+
+.form{
+    position: relative;
+}
+.prenom{
+    position: absolute;
+    top: 2.2rem;
+    left: 20rem;
+}
+
+label{
+    margin: 1rem 0;
+}
+
+.date{
+    position: absolute;
+    top: 7.6rem;
+    left: 20rem;
+}
+
+.etat{
+    position: absolute;
+    top: 2.2rem;
+    left: 45rem;
+}
+
+.submit{
+    width: 20%;
+    padding: .3rem 0;
+    border: transparent;
+    border-radius: .2rem;
+    background-color: #FFAA0A;
+    color: #97793F;
+    cursor: pointer;
+}
+
+.btn {
+    text-align: end;
+    padding-right: 4rem;
+}
+
+input[type = text]{
+    padding: .3rem .75rem;
+    border: 1px solid lightgrey;
+    border-radius: .2rem;
+}
+
+.enValidation{
+    background-color: #FDB64D;
+}
+
+.Validé{
+    background-color: #5BE881;
+}
+
+.Rejeté{
+    background-color: #FF0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    width: 80%;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 2rem 0 0 0 ;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.contentcontainer{
+    border: 1px solid lightgray;
+    box-shadow: 0 0 1rem 0 lightgrey;
+}
+.titlecontainer{
+    display: grid;
+    grid-template-columns: repeat(8,minmax(12%,1fr));
+    text-align: center;
+}
+.titlecontainer div,
+#di-locations td{
+    padding: .4rem 0;
+}
+#di-locations{
+    width: 100%;
+}
+#di-locations td{
+    width: 12%;
+    text-align: center;
+}
+
+tr td:nth-child(8){
+    cursor: pointer;
+}
+.btncontainer{
+    margin-top: 1rem;
+    border: 1px solid lightgrey;
+    padding: .5rem  ;
+    display: flex;
+    justify-content: end;
+}
+.adduser{
+    background-color: orange;
+    border: none;
+    padding: .5rem .9rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.formcontainer{
+    border: 1px solid lightgrey;
+    padding: .8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999999;
+    box-shadow: 0 0 100rem lightgrey;
+    background-color: white;
+    display: none;
+    transition: all 250ms ease-in-out;
+}
+
+.active{
+    display: block !important;
+}
+#form{
+    margin-top: .8rem;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    gap: .5rem;
+}
+
+#rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#leftside input,
+#middleside input,
+#rightside input{
+    margin: .5rem 0;
+    padding: .2rem .2rem;
+    border-color: lightgray;
+}
+#leftside input:focus,
+#middleside input:focus,
+#rightside input:focus{
+    border: none;
+}
+.date{
+    width: 100%;
+}
+#submit{
+    width: 50%;
+    margin-left: auto;
+    background-color: orange;
+    border: none;
+    padding: .2rem;
+    border-radius: 5re;
+    cursor: pointer;
+} */
